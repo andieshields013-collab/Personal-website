@@ -1,0 +1,51 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="softShadow" x="-5%" y="-15%" width="110%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#3b2f20" flood-opacity="0.10"/>
+    </filter>
+    <pattern id="paperGrain" width="110" height="90" patternUnits="userSpaceOnUse">
+      <rect width="110" height="90" fill="#fffaf0"/>
+      <path d="M10 22H100M4 61H106" stroke="#d9c8aa" stroke-opacity="0.11"/>
+      <circle cx="25" cy="70" r="1.1" fill="#b99660" fill-opacity="0.10"/>
+      <circle cx="82" cy="31" r="0.9" fill="#b99660" fill-opacity="0.10"/>
+    </pattern>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <rect x="54" y="34" width="1092" height="192" rx="20" fill="#efe4cf"/>
+    <rect x="76" y="54" width="1048" height="152" rx="16" fill="url(#paperGrain)" stroke="#fff7e8" stroke-width="12"/>
+
+    <!-- delicate lace-like border lines -->
+    <rect x="95" y="72" width="1010" height="116" rx="10" stroke="#9a8059" stroke-opacity="0.48" stroke-width="2" stroke-dasharray="2 7"/>
+    <rect x="66" y="44" width="1068" height="172" rx="18" stroke="#fffaf0" stroke-opacity="0.95" stroke-width="3"/>
+    <rect x="84" y="62" width="1032" height="136" rx="12" stroke="#c8b28a" stroke-opacity="0.24" stroke-width="2"/>
+
+    <!-- corner lace flourishes -->
+    <g stroke="#b59b72" stroke-opacity="0.42" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M137 92C117 92 109 112 122 126C136 141 161 131 154 111C150 99 133 102 134 116"/>
+      <path d="M154 149C161 129 136 119 122 134C109 148 117 168 137 168"/>
+      <path d="M1063 92C1083 92 1091 112 1078 126C1064 141 1039 131 1046 111C1050 99 1067 102 1066 116"/>
+      <path d="M1046 149C1039 129 1064 119 1078 134C1091 148 1083 168 1063 168"/>
+      <path d="M215 82C245 106 279 106 309 82"/>
+      <path d="M891 82C921 106 955 106 985 82"/>
+      <path d="M215 178C245 154 279 154 309 178"/>
+      <path d="M891 178C921 154 955 154 985 178"/>
+    </g>
+
+    <!-- tiny lace dots, not scallops -->
+    <g fill="#ad926b" fill-opacity="0.34">
+      <circle cx="185" cy="68" r="2"/>
+      <circle cx="205" cy="68" r="2"/>
+      <circle cx="225" cy="68" r="2"/>
+      <circle cx="975" cy="68" r="2"/>
+      <circle cx="995" cy="68" r="2"/>
+      <circle cx="1015" cy="68" r="2"/>
+      <circle cx="185" cy="192" r="2"/>
+      <circle cx="205" cy="192" r="2"/>
+      <circle cx="225" cy="192" r="2"/>
+      <circle cx="975" cy="192" r="2"/>
+      <circle cx="995" cy="192" r="2"/>
+      <circle cx="1015" cy="192" r="2"/>
+    </g>
+  </g>
+</svg>
